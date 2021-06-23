@@ -30,11 +30,29 @@
 /* input  */
 .input_box{
     max-width: 800px;
-    margin: auto;
+    margin: 5px auto;
     text-align: center;
 }
 
 .input_box > input{ /*input type text*/
     width: 40%;
     vertical-align: bottom;
+}
+
+/* todo list */
+
+.todolist{
+    padding: 0px 20px;
+    background-color: #dfd8d8;
+    margin: 0px 20px;
+}
+
+.todolist li{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container > div:nth-child(3){ /* */
+    padding: 5px;
 }
