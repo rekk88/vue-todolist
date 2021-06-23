@@ -4,7 +4,12 @@
     margin: 0;
 }
 
+.fs_15{
+    font-size: 1.5em !important;
+}
 
+
+/* body */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -12,6 +17,7 @@
     height: 100vh;
 }
 
+/* logo */
 .img_box{
     text-align: center;
 }
@@ -19,4 +25,16 @@
 .img_box > img{
     max-width: 500px; /*max width pari alla dimensione massima dell'immagine 500 x 250*/
     width: 100%;
+}
+
+/* input  */
+.input_box{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.input_box > input{ /*input type text*/
+    width: 40%;
+    vertical-align: bottom;
 }
