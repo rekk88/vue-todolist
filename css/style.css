@@ -8,5 +8,15 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    background-color: grey;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+.img_box{
+    text-align: center;
+}
+
+.img_box > img{
+    max-width: 500px; /*max width pari alla dimensione massima dell'immagine 500 x 250*/
+    width: 100%;
 }
