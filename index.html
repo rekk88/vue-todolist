@@ -25,7 +25,7 @@
         <!-- fine input -->
         <div> <!--NOTA : NON AGGIUNGERE NIENTE SOPRA (altrimenti nth-child si rompe)-->
             <ul class="todolist">
-                <li v-for="(item,index) in tasks">{{item}} <i class="fas fa-dumpster" @click="elimina(index)"></i></li>
+                <li v-for="(item,index) in tasks">{{index}} {{item}} <i class="fas fa-dumpster" @click="elimina(index)"></i></li>
             </ul>
         </div>
     </div>

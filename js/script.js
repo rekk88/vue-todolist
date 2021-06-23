@@ -25,7 +25,9 @@ const app = new Vue(
             inserisci(){
                 // this.tasks.push()
                 console.log(this.nuovaTask.length);
-                if(this.nuovaTask.length > 0 && this.nuovaTask.trim===""){
+                let str = this.nuovaTask.trim();
+                console.log(str);
+                if(this.nuovaTask.length > 0 && this.nuovaTask.trim !==  ''){
                     this.tasks.push(this.nuovaTask);
                     this.nuovaTask = '';
                 }
