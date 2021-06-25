@@ -25,9 +25,10 @@ const app = new Vue(
             inserisci(){
                 // this.tasks.push()
                 console.log(this.nuovaTask.length);
-                let str = this.nuovaTask.trim();
+                let str = this.nuovaTask.trim(); //restituisce una stringa senza spazi prima e dopo i caratteri
+                //nel caso di una stringa di soli spazi restituisce una stringa vuota
                 console.log(str);
-                if(this.nuovaTask.length > 0 && str !==  ''){
+                if(this.nuovaTask.length > 0 &&  this.nuovaTask.trim() !==  ''){
                     this.tasks.push(this.nuovaTask);
                     this.nuovaTask = '';
                 }

@@ -19,8 +19,8 @@
 
         <!-- input -->
         <div class="input_box">
-            <input v-model="nuovaTask" type="text" placeholder="Inserisci una nuova attività" name="" class="fs_15" id="">
-            <button class="fs_15" @click="inserisci">Aggiungi</button>
+            <input v-model="nuovaTask"  @keyup.enter="inserisci" type="text" placeholder="Inserisci una nuova attività" name="" class="fs_15" id="">
+            <button class="fs_15" @click="inserisci" >Aggiungi</button>
         </div>
         <!-- fine input -->
         <div> <!--NOTA : NON AGGIUNGERE NIENTE SOPRA (altrimenti nth-child si rompe)-->
