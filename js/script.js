@@ -27,7 +27,7 @@ const app = new Vue(
                 console.log(this.nuovaTask.length);
                 let str = this.nuovaTask.trim();
                 console.log(str);
-                if(this.nuovaTask.length > 0 && this.nuovaTask.trim !==  ''){
+                if(this.nuovaTask.length > 0 && str !==  ''){
                     this.tasks.push(this.nuovaTask);
                     this.nuovaTask = '';
                 }
